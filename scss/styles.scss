@@ -435,11 +435,13 @@ footer {
     p {
         color: $text;
         margin: 0;
+        float: right;
 
     }
     img{
         float: left;
         margin-right: 15px;
+        padding-left: 20px;
     }
 }
 
