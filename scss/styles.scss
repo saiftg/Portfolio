@@ -60,6 +60,10 @@ $text: #74808a;
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    background-position: center;
+    background-image: url(../images/lead-bg.jpg);
+    background-repeat: no-repeat;
+
 
     &.active {
         overflow: hidden;
@@ -114,7 +118,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -162,7 +166,7 @@ header {
     }
 
     &.sticky {
-        position: fixed;
+        position: relative;
         z-index: 999;
     }
 }
@@ -324,6 +328,8 @@ footer {
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/lead-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -895,7 +901,7 @@ footer {
 @media only screen and (max-width : 768px) {
 
     header {
-        position: fixed;
+        position: relative;
         display: none;
         z-index: 999;
         animation: none;
@@ -905,6 +911,7 @@ footer {
 
     #mobile-menu-open, #mobile-menu-close {
         display: block;
+        position: relative;
     }
 
     #menu {
