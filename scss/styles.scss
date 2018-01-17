@@ -201,6 +201,7 @@ header {
     padding-top: 10px;
     cursor: pointer;
     color: $base-color;
+    position: fixed;
 
     span {
         font-size: 0.5em;
@@ -911,7 +912,7 @@ footer {
 
     #mobile-menu-open, #mobile-menu-close {
         display: block;
-        position: relative;
+        position: fixed;
     }
 
     #menu {
